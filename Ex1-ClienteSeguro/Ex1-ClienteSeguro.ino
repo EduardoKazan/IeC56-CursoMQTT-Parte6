@@ -5,6 +5,7 @@
  * 02/2019 - Andre Michelon
  */
 
+
 // Bibliotecas
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
@@ -97,3 +98,4 @@ void loop() {
     client.publish("test", msg.c_str());
   }
 }
+
